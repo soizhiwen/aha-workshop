@@ -22,6 +22,10 @@ Everything lives in [`tutorial.ipynb`](tutorial.ipynb). In it you will:
 > [**Google Colab**](https://colab.research.google.com/drive/1fnZid_LGmpk-v_sjHyFGGlyavLXvN0DO?usp=sharing)
 > (select a GPU runtime under *Runtime → Change runtime type*). The Colab is
 > self-contained, so you can skip the local Setup steps below.
+>
+> Because Colab has limited GPU memory, the Colab version uses the smaller
+> **Qwen3.5-4B** judge instead of Qwen3.5-9B. The results will therefore differ from,
+> and be somewhat more degraded than, the local run.
 
 ## Setup
 
