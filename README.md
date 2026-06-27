@@ -18,6 +18,11 @@ Everything lives in [`tutorial.ipynb`](tutorial.ipynb). In it you will:
 - **Python 3.12** (pinned in [`.python-version`](.python-version)).
 - A few GB of disk for the model weights and dataset, downloaded on first run from the Hugging Face Hub.
 
+> **No GPU?** You can run the whole tutorial for free on
+> [**Google Colab**](https://colab.research.google.com/drive/1fnZid_LGmpk-v_sjHyFGGlyavLXvN0DO?usp=sharing)
+> (select a GPU runtime under *Runtime → Change runtime type*). The Colab is
+> self-contained, so you can skip the local Setup steps below.
+
 ## Setup
 
 This project uses [**uv**](https://docs.astral.sh/uv/) for environment and dependency management.
